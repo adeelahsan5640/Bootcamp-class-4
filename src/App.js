@@ -10,7 +10,7 @@ function App() {
       <h1>Day Time {isMorning?'Morning':'Night'}</h1>
       <Message counter={count}/>
       <br/>
-      <button onClick={()=> setCount(count+1)}>Update counter</button>
+      <button style={{color: `blue`}} onClick={()=> setCount(count+1)}>Update counter</button>
       <button onClick={()=> setMorning(!isMorning)}>Update Day</button>
     </div>
   );
